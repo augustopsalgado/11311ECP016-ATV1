@@ -1,5 +1,5 @@
 Compilador = arm-none-eabi-gcc
-Parametros = -c -mcpu=cortex-m4 -mthumb
+Parametros = -c -mcpu=cortex-m4 -mthumb -Wall -o0
 
 all: main.o startup.o
 
