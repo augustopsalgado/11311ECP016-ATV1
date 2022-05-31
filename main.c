@@ -31,7 +31,7 @@ int main(int argc,char *argv[])
 {
     while(1){};
     
-    /* Nao deveria chegar aqui */
+    /* Nao deveria chegar aqui test */
     
     return EXIT_SUCCESS;
     }
