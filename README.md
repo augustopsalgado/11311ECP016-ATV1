@@ -1,1 +1,1 @@
-Laboratorio 02 da matéria de Sistemas embarcados 1.
+Laboratorio 02 e 03 da matéria de Sistemas embarcados 1.
