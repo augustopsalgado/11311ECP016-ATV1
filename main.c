@@ -5,7 +5,7 @@
 #define SRAM_END ((SRAM_START) + (SRAM_SIZE)) /* Final da SRAM STM32F411 */
 #define STACK_START SRAM_END
 
-uint32_t vectors[] =
+uint32_t vectors[] __attribute__((section(".isr_vectors"))) =
 {
 STACK_START, /* 0x0000 0000 */
 0, /* 0x0000 0004 */
