@@ -1,8 +1,8 @@
-CC = arm-none-eabi-gcc
-CFLAGS = -c -mcpu=cortex-m4 -mthumb
+Compilador = arm-none-eabi-gcc
+Parametros = -c -mcpu=cortex-m4 -mthumb
 
 main.o: main.c
-	$(CC) $(CFLAGS) $< -o $@
+	$(Compilador) $(Parametros) $< -o $@
 
-clean:
+limpar:
 	rm -f *.o
