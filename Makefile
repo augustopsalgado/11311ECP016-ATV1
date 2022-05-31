@@ -1,7 +1,7 @@
 CC = arm-none-eabi-gcc
 CFLAGS = -c -mcpu=cortex-m4 -mthumb -Wall -o0
 
-all: main.o startup.o
+all: startup.o main.o
 
 main.o: main.c
 	$(CC) $(CFLAGS) -o $@ $^
@@ -9,5 +9,5 @@ main.o: main.c
 startup.o : startup.c
 	$(CC) $(CFLAGS) -o $@ $^
 
-limpar:
+clean:
 	rm -f *.o
