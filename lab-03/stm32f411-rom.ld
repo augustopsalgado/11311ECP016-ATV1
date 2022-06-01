@@ -8,9 +8,9 @@ MEMORY
 
 SECTIONS
 {
-    /* combinar todas as secoes .isr_vectors de todos arquivos de entrada */
-    /* combinar todas as secoes .text de todos arquivos de entrada */
-    /* combinar todas as secoes .rodata de todos arquivos de entrada */
+    /* combinar todas .isr_vectors de todos arquivos de entrada */
+    /* combinar todas .text de todos arquivos de entrada */
+    /* combinar todas .rodata de todos arquivos de entrada */
     .text :
     {
         KEEP(*(.isr_vectors))
