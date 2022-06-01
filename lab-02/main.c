@@ -2,10 +2,10 @@
 
 int main(int argc, char *argv[])
 {
-    while(1);
-    
-    /* Nao deveria chegar aqui */
-    
+    while (1)
+    {
+        /* code */
+    }
     return EXIT_SUCCESS;
 }
 
